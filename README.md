@@ -10,7 +10,7 @@ We consider a dynamical system with a **regime shift**:
 
 Only **partial observations** of the system are available.
 
-We ask:
+We ask
 
 &emsp;&emsp;Can we detect instability from incomplete measurements?
 ## Method
