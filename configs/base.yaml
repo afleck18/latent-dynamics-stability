@@ -1,0 +1,25 @@
+# configs/base.yaml
+
+experiment: baseline
+
+seed: 0
+
+system:
+  T: 200
+  transition_time: 100
+  r_stable: 0.94
+  r_unstable: 1.057
+  theta: 0.25
+  noise_std: 0.002
+
+sensing:
+  type: direct
+  noise_std: 0.05
+
+estimation:
+  window_pre: 30
+  window_post: 12
+  lambda_reg: 0.001
+
+metrics:
+  smoothing: 6

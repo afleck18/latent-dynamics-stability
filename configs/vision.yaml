@@ -1,0 +1,37 @@
+# configs/vision.yaml
+
+experiment: vision
+
+seed: 0
+
+system:
+  T: 200
+  transition_time: 100
+  r_stable: 0.94
+  r_unstable: 1.03
+  theta: 0.25
+  noise_std: 0.002
+
+sensing:
+  type: vision
+  fx: 200
+  fy: 200
+  z: 10.0
+
+sensing_good:
+  dropout_prob: 0.02
+  base_noise: 0.005
+  distance_noise_scale: 0.01
+
+sensing_bad:
+  dropout_prob: 0.3
+  base_noise: 0.02
+  distance_noise_scale: 0.05
+
+estimation:
+  window_pre: 30
+  window_post: 12
+  lambda_reg: 0.001
+
+metrics:
+  smoothing: 10
