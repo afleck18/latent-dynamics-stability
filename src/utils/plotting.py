@@ -18,7 +18,7 @@ def plot_system(x):
     plt.xlabel("Time")
     plt.legend()
     plt.tight_layout()
-    plt.savefig('results/system_dynamics.png')
+    plt.savefig('results/system_transition.png')
     plt.show()
 
 # -------------------------

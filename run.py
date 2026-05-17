@@ -61,4 +61,5 @@ def main(experiment):
 
 if __name__ == "__main__":
     ### vision or base ###
+    main("base")
     main("vision")
