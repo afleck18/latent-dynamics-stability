@@ -19,7 +19,7 @@ This project studies how stability transitions in nonlinear dynamical systems ca
 ## System Overview
 
 <p align="center">
-  <img src="figures/system_overview.png" width="950"/>
+  <img src="supporting_figures/system_overview.png" width="950"/>
 </p>
 
 The experimental pipeline evaluates how latent dynamical behavior can be recovered from imperfect observations. Nonlinear system trajectories are reconstructed from partial measurements, followed by local dynamics estimation and stability analysis to identify transitions between stable and unstable regimes.
