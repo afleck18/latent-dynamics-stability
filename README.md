@@ -2,6 +2,8 @@
 
 ## Abstract
 
+Stability analysis and latent operator estimation for forced dynamical systems with incomplete observations.
+
 This project studies how stability transitions in nonlinear dynamical systems can be inferred from partial and degraded observations. Local dynamics estimation and reconstruction-based analysis are used to detect transitions between stable and unstable operating regimes, with emphasis on latent instability growth, reconstruction divergence, and degradation-sensitive stability estimation. The framework evaluates how observation quality influences the ability to recover underlying system behavior and identify instability before large-scale divergence occurs.
 
 ---
